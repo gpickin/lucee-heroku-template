@@ -2,6 +2,6 @@
   "name": "Lucee Heroku Template",
   "description": "A barebones Lucee setup for Heroku",
   "repository": "https://github.com/mikesprague/lucee-heroku-template",
-  "logo": "http://lucee.org/assets/img/lucee-logo.png",
+  "logo": "https://bytebucket.org/lucee/lucee/raw/2aabc4381e7c5822fe1c3abd2547245b5a7c024c/misc/logos/logo-1-color-black-small.png",
   "keywords": ["lucee", "cfml"]
 }
