@@ -27,16 +27,19 @@ $ foreman start -f Procfile.dev
 You'll now have Lucee up and running at [http://localhost:5000](http://localhost:5000).
 Start adding your code to /webroot.
 
+By default, access to the Lucee server/web admins has remote access blocked. This can be 
+configured in /webroot/WEB-INF/urlrewrite.xml
+
 To deploy your site to heroku you need to setup a heroku account and install the toolbelt,
 you can find their getting started guide [here](https://devcenter.heroku.com/articles/quickstart).
 
 Then..
 ```bash
-$ heroku create
+$ heroku apps:create [NAME]
 $ git push heroku master
 $ heroku open
 ```
 
-You should now be looking at your app running on heroku.
+You should now be looking at your app running on Heroku.
 
 Enjoy!
